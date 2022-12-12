@@ -5,5 +5,6 @@ pip install --pre timm
 pip install -r requirements.txt
 ```
 # EXPORT ONNX FP16
-Convert pytorch model to onnx and quantize onnx model from float32 to float16. Support convnext and efficientnet.
+Convert pytorch model to onnx and quantize onnx model from float32 to float16. Support convnext and efficientnet, dynamic batch size
+
 ``` python convert_onnx.py --weightpath ... ```
